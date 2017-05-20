@@ -2,7 +2,7 @@
 * @Author: fengzi
 * @Date:   2017-05-19 22:25:00
 * @Last Modified by:   fengzi
-* @Last Modified time: 2017-05-20 09:53:29
+* @Last Modified time: 2017-05-20 11:30:48
 */
 
 @import url(common/reset.css);
@@ -74,13 +74,17 @@ body {
     padding: 15px;
     background: #cfd8dc;
 }
-
-
 .page-body .b-aside .b-aside-wrap {
 	margin: 5px;
 	font-size: 14px;
 }
+.page-body .b-aside .b-aside-panel {
+    margin-bottom: 20px;
+}
+.page-body .b-aside .b-aside-panel a {
+    text-decoration: none;
 
+}
 .page-body .b-aside .b-a-list {
     padding: 4px;
     border-radius: 3px;

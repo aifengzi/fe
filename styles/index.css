@@ -2,11 +2,96 @@
 * @Author: fengzi
 * @Date:   2017-05-19 22:25:00
 * @Last Modified by:   fengzi
-* @Last Modified time: 2017-05-19 22:25:47
+* @Last Modified time: 2017-05-20 09:53:29
 */
-section {
-	background-color: green;
-	width: 100%;
-	height: 300px;
+
+@import url(common/reset.css);
+@import url(common/color.css);
+
+
+body {
+	font-family: 'Microsoft YaHei',Arial,Helvetica,sans-serif,"\5b8b\4f53";
+    margin: 0 auto;
+    font-size: 12px;
+    background: #f0f0f0;
+    overflow-x: hidden;
+}
+.page-header {
+	padding: 20px;
+	color: #fff;
+	background-color: #221f42;
+}
+.page-header .h-title {
+    font-size: 30px;
+    padding: 15px 0 60px;
+}
+.page-header .h-desc {
+	font-size: 16px;
+}
+
+.page-body {
+	display: flex;
 	margin: 20px;
+	font-size: 16px;
+}
+.page-body .b-contain {
+	background-color: #fff;
+	margin-right: 10px;
+	border-radius: 4px;
+	flex: 3;
+	padding: 15px 0;
+
+}
+.page-body .b-contain ul {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.page-body .b-contain .b-contain-list {
+    padding: 5px;
+    overflow: hidden;
+    height: 130px;
+    width: 20%;
+    margin: 15px 20px;
+    border-radius: 5px;
+}
+.page-body .b-contain  .b-c-list-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 130px;
+    text-align: center;
+    text-decoration: none;
+    color: #f2eeee;
+}
+.page-body .b-aside {
+	background-color: #fff;
+	border-radius: 4px;
+	flex: 1;
+}
+.page-body .b-aside .b-aside-title {
+    font-size: 16px;
+    padding: 15px;
+    background: #cfd8dc;
+}
+
+
+.page-body .b-aside .b-aside-wrap {
+	margin: 5px;
+	font-size: 14px;
+}
+
+.page-body .b-aside .b-a-list {
+    padding: 4px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+.page-footer {
+    background-color: #221f42;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.page-footer p {
+	margin-bottom: 5px;
 }

@@ -54,6 +54,4 @@ http
 npm config set foo:port 80
 ```
 
-## npm插件
-
 ## npm依赖管理
